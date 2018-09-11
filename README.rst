@@ -27,7 +27,7 @@ To use denite-fasd call
 
 Calling without an argument (i.e. :code:`:Denite fasd`) will prompt interatively for an argument.
 
-.. _denite: https://github.com/Shougo/denite.nvim
+.. _denite.nvim: https://github.com/Shougo/denite.nvim
 .. _fasd: https://github.com/clvv/fasd
 .. _dein: https://github.com/Shougo/dein.vim
 .. _vim-plug: https://github.com/junegunn/vim-plug
