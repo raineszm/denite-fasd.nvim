@@ -1,16 +1,16 @@
 denite-fasd.nvim
 ================
 
-A [denite.nvim](https://github.com/Shougo/denite.nvim) source for [fasd](https://github.com/clvv/fasd).
+A `denite.nvim`_ source for `fasd`_.
 
-To install with `vim-plug`:
+To install with `vim-plug`_:
 
 .. code:: vim
 
     Plug 'Shougo/denite.nvim'
     Plug 'raineszm/denite-fasd.nvim'
 
-To install with `dein`:
+To install with `dein`_:
 
 
 .. code:: vim
@@ -25,4 +25,9 @@ To use denite-fasd call
 
     :Denite fasd:argument
 
-Calling without an argument (i.e. `:Denite fasd`) will prompt interatively for an argument.
+Calling without an argument (i.e. :code:`:Denite fasd`) will prompt interatively for an argument.
+
+.. _denite: https://github.com/Shougo/denite.nvim
+.. _fasd: https://github.com/clvv/fasd
+.. _dein: https://github.com/Shougo/dein.vim
+.. _vim-plug: https://github.com/junegunn/vim-plug
